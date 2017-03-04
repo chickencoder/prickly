@@ -24,7 +24,7 @@ The language currently implements the following word operators...
 * wipe
 
 The language implementation is very similar to [this guide](https://learnxinyminutes.com/docs/forth/) to forth. The same rules apply up until compile-only word definitions etc. which are still to
-be implemented.
+be implemented. (Accept that comments are single lines starting with '#')
 
 ## Contributions
 If you have any issues or suggestions, feel free to submit and Issue or PR.
