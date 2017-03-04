@@ -176,11 +176,12 @@ class Interpreter:
 
 
     def interactive_mode(self):
-        print("Prickly 0.1.2")
+        print("Prickly Interactive 0.1")
+        print('Type "exit" to leave the REPL')
         running = True
 
         while running:
-            user_inp = input("@ ")
+            user_inp = input("=> ")
             if user_inp != "exit":
                 val = self.evaluate(user_inp)
                 if val:
